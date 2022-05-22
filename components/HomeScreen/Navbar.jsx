@@ -25,7 +25,7 @@ function Navbar() {
             <a className="font-medium duration-150 active:scale-95">Driver</a>
           </Link>
         </div>
-        <Button name="Sign up" />
+        <Button name="Log in" link="/login" />
       </div>
     </header>
   );

@@ -4,7 +4,7 @@ function IconButton({ name, icon, link }) {
   return (
     <button
       className="bg-secondary px-5 md:px-8 py-3 m-3 sm:m-0 flex justify-center items-center rounded-full text-white duration-150 hover:scale-105 active:scale-95 select-none"
-      onClick={!link ? null : (location.href = link)}
+      onClick={!link ? null : () => (window.location.href = link)}
     >
       {!icon ? null : (
         <div className="mr-2 flex justify-center items-center">
