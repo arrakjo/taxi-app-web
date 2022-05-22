@@ -5,7 +5,7 @@ import Button from "../elements/Button";
 
 function Navbar() {
   return (
-    <header className="flex w-full py-8 justify-center items-center">
+    <header className="flex w-full py-8 justify-center items-center px-5">
       <div className="flex w-full max-w-7xl justify-between items-center">
         <Link href="/">
           <div className="flex justify-between items-center cursor-pointer select-none">
@@ -15,7 +15,7 @@ function Navbar() {
             </div>
           </div>
         </Link>
-        <div className="flex w-1/2 justify-end space-x-10 px-10">
+        <div className="hidden md:flex w-1/2 justify-end space-x-10 px-10">
           <Link href="#">
             <a className="font-medium duration-150 active:scale-95">
               Passenger
