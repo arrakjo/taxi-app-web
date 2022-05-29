@@ -12,6 +12,7 @@ module.exports = {
       whitesmoke: "#FAFAFA",
       black: "#000000",
       gray: "#9E9E9E",
+      lightgray: "#E9E9E9",
     },
   },
   plugins: [],
