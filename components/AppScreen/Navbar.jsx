@@ -22,7 +22,7 @@ function Navbar() {
         priority
       />
       <div className="w-36 py-10 flex flex-col items-end space-y-3">
-        <Link href="#">
+        <Link href="/app">
           <a className="w-24 h-14 bg-white shadow-lg rounded-lg grid place-items-center duration-150 hover:scale-105 active:scale-95">
             <Image
               src={HomeAlt}
