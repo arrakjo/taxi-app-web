@@ -47,6 +47,11 @@ function Login() {
             <button className="bg-primary px-8 py-3 mt-6 rounded-full text-white duration-150 hover:scale-105 active:scale-95">
               Log in
             </button>
+            <Link href="#">
+              <a className="text-sm text-primary text-center underline font-medium mt-3">
+                Forgot password?
+              </a>
+            </Link>
           </form>
           <div className="w-full flex space-x-1 justify-center pt-6">
             <p className="text-sm text-secondary">
